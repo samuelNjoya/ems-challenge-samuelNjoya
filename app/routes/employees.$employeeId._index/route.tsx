@@ -169,12 +169,6 @@ export default function EmployeePage() {
             actionText="Save Changes" 
             cancelUrl={`/employees/${employee.id}`} 
           />
-          <button 
-            onClick={() => setIsEditing(false)} 
-            className="px-6 py-2.5 bg-gray-600 text-white rounded-md text-sm font-medium hover:bg-gray-700 transition-colors mb-5"
-          >
-            Cancel Edit
-          </button>
         </>
       )}
 

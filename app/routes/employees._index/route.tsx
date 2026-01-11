@@ -168,7 +168,7 @@ export default function EmployeesPage() {
                         />
                       ) : (
                         <div className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center text-gray-400 text-lg">
-                          👤
+                           {employee.full_name.charAt(0).toUpperCase()}
                         </div>
                       )}
                       <span className="font-medium text-gray-800">{employee.full_name}</span>
